@@ -1,0 +1,109 @@
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Container and Row Styles */
+.container-fluid {
+    padding: 0 15px;
+}
+
+/* Responsive Columns */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/* Paragraph Styles */
+.para, .para1, .para2 {
+    text-align: justify;
+    font-size: 1rem;
+    margin: 2%;
+}
+
+/* Responsive Images */
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Headline Style */
+.head {
+    font-size: 2rem;
+}
+
+/* Footer and Navbar Styles */
+.navbar {
+    background-color: rgb(48, 41, 41);
+}
+
+.foot, .end {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(226, 218, 218);
+}
+
+.end {
+    background-color: rgb(48, 41, 41);
+    text-align: center;
+    color: white;
+}
+
+/* Main Section */
+.main {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Footer Sections */
+.first, .second {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.icon {
+    margin: 20px 10px;
+}
+
+/* Links */
+.link {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: rgb(48, 41, 41);
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) {
+    .row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .first {
+        width: 30%;
+    }
+
+    .second {
+        width: 20%;
+    }
+
+    .para, .para1, .para2 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .first {
+        width: 25%;
+    }
+
+    .second {
+        width: 18%;
+    }
+
+    .para, .para1, .para2 {
+        font-size: 1.2rem;
+    }
+}
